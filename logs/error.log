@@ -1,0 +1,15 @@
+[2024-03-27T21:39:01.639] [ERROR] cheese - Cheese is too ripe!
+[2024-03-27T21:39:01.640] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2024-03-27T21:40:09.435] [ERROR] cheese - Cheese is too ripe!
+[2024-03-27T21:40:09.436] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2024-03-27T21:43:59.766] [ERROR] cheese - 1
+[2024-03-27T21:59:28.502] [ERROR] cheese - 1
+[2024-03-27T22:45:14.699] [ERROR] cheese - _BooksModel.default is not a constructor
+[2024-03-27T22:45:46.924] [ERROR] cheese - _BooksModel.default is not a constructor
+[2024-03-27T22:59:26.333] [ERROR] cheese - Unexpected end of tag " for" on line 11 in file /Users/lpx/Desktop/learn/books/views/books/list.html.
+[2024-03-27T23:08:20.716] [ERROR] cheese - httpRequest.fetch is not a function
+[2024-04-01T23:03:40.576] [ERROR] cheese - Malicious Path
+[2024-04-01T23:05:49.418] [ERROR] cheese - Malicious Path
+[2024-04-01T23:06:38.604] [ERROR] cheese - Malicious Path
+[2024-04-01T23:07:14.210] [ERROR] cheese - Malicious Path
+[2024-04-01T23:08:05.364] [ERROR] cheese - Malicious Path
