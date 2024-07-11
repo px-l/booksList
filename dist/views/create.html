@@ -1,0 +1,16 @@
+<head><script defer src="../assets/scripts/runtime.bundle.js"></script><script defer src="../assets/scripts/create.bundle.js"></script></head>{% extends '../layouts/layout.html' %}
+
+{% block title %}图书创建页{% endblock %}
+{% block head %}
+<style>
+    body {
+        background-color: aquamarine;
+    }
+</style>
+{% endblock %}
+{% block content %}
+{% include '../../component/nva/nva.html' %}
+{% for item in data %}
+<li>[[item.id]]-[[item.name]]</li>
+{% endfor %}
+{% endblock %}

@@ -13,3 +13,6 @@
 [2024-04-01T23:06:38.604] [ERROR] cheese - Malicious Path
 [2024-04-01T23:07:14.210] [ERROR] cheese - Malicious Path
 [2024-04-01T23:08:05.364] [ERROR] cheese - Malicious Path
+[2024-07-11T20:59:21.028] [ERROR] cheese - ENOENT: no such file or directory, open '/Users/lpx/Desktop/learn/books/src/web/compinent/nva/nva.html'
+[2024-07-11T20:59:33.166] [ERROR] cheese - ENOENT: no such file or directory, open '/Users/lpx/Desktop/learn/books/src/web/compinent/nva/nva.html'
+[2024-07-11T20:59:35.065] [ERROR] cheese - ENOENT: no such file or directory, open '/Users/lpx/Desktop/learn/books/src/web/compinent/nva/nva.html'

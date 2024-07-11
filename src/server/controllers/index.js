@@ -10,6 +10,7 @@ const booksController = new BooksController();
 function initController (app) {
     router.get('/', indexController.actionIndex);
     router.get('/books/list', booksController.actionBooksListPage);//页面
+    router.get('/books/create', booksController.actionBooksCreatePage);//页面
     router.get('/api/getDataList', apiController.actionDataList);//api
     app
         .use(router.routes())

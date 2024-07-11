@@ -11,5 +11,12 @@ class BooksController extends Controller {
             data: result.data
         });
     }
+    async actionBooksCreatePage(ctx) {
+        const booksModel = new BooksModel()
+        const result = await booksModel.getBooksList();
+        ctx.body = await ctx.render('books/create', {
+            data: result.data
+        });
+    }
 }
 export default BooksController;

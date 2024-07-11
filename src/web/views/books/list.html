@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>books</title>
+</head>
+<body>
+    {% for item in data %}
+    <li>[[item.id]]-[[item.name]]</li>
+    {% endfor %}
+    <button id="btn">点击</button>
+    <script src="/myUtils.js"></script>
+    <script>
+        _.each([1,2,3], item=>{
+            console.log(item)
+        })
+        _([1,2,3]).each(item => {
+            console.log(item)
+        })
+        function log() {
+            console.log(+ new Date())
+        }
+        const handleClick = _.throttle(log, 2000)
+        document.querySelector('#btn').onclick = handleClick;
+    </script>
+</body>
+</html> -->
+{% extends '../layouts/layout.html' %}
+
+{% block title %}图书列表页{% endblock %}
+{% block head %}
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+    </style>
+    <!-- injectjcss -->
+{% endblock %}
+{% block content %}
+    {% include '../../component/nva/nva.html' %}
+    {% for item in data %}
+    <li>[[item.id]]-[[item.name]]</li>
+    {% endfor %}
+{% endblock %}
+{% block script %}
+<!-- injectjs -->
+{% endblock %}

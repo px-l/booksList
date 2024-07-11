@@ -1,7 +1,7 @@
 const path = require('path');
 let config = {
-    viewDir: path.join(__dirname, '..', "views"),
-    staticDir: path.join(__dirname, '../', "assets")
+    viewDir: path.join(__dirname, '../../', "web/views"),
+    staticDir: path.join(__dirname, '../../', "assets")
 };
 // NODE_ENV
 if(process.env.NODE_ENV === 'development') {
